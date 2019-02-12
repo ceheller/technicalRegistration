@@ -1,0 +1,39 @@
+#navbar {
+  background-color: #c1c0b9;
+  position: fixed;
+  display: flex;
+  top: 1px;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 15%;
+}
+
+.main-section {
+  position: relative;
+  width: 80%;
+  left: 20%;
+  text-align: justify;
+  padding-bottom: 3%;
+  color: black;
+}
+
+.nav-link {
+  padding: 10%;
+  border-width: 10px black;
+  border-color: black;
+  border-bottom-style: solid;
+}
+
+@media (max-width: 767px) {
+  #navbar {
+    width: 100%;
+    position: relative;
+    padding-bottom: 5%;
+  }
+  .main-section {
+    padding-top: 5%;
+    left: 0%;
+    width: 100%;
+  }
+}
